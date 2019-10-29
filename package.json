@@ -1,0 +1,35 @@
+{
+  "name": "hap-server",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "keywords": [
+    "homekit",
+    "hap",
+    "hap-nodejs",
+    "hap-node",
+    "iot"
+  ],
+  "homepage": "https://github.com/patrikholcak/hap-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrikholcak/hap-server.git"
+  },
+  "author": "Patrik Holcak <hi@patrik.dev> (http://patrik.dev/)",
+  "bugs": {
+    "url": "https://github.com/patrikholcak/hap-server/issues"
+  },
+  "main": "dist/index.js",
+  "dependencies": {
+    "hap-nodejs": "latest",
+    "node-persist": "^0.0.11"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.7",
+    "@types/node-persist": "0.0.33",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
