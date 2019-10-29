@@ -33,7 +33,7 @@ Bridge(accessories, {
 
 ## Standalone Example
 
-In standalone mode, every accessory will be published on the network separately and each get a port assigned, starting with `51826`.
+In standalone mode, every accessory will be published on the network separately and each will get a port assigned, starting with `51826`.
 
 ```ts
 import { Standalone } from "hap-server";
